@@ -23,7 +23,7 @@ mod tests {
 
     #[test]
     fn ten_is_bigger_than_eight() {
-        assert_eq!(10, bigger(10, 8));
+        assert_eq!(10, bigger(8, 10));
     }
 
     #[test]
